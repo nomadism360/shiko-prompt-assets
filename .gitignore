@@ -18,7 +18,16 @@ _site/
 Gemfile.lock
 
 # --- Prompt Lab Specific ---
-temp/
-draft_private/
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
 *.log
-.env
+tmp/
+temp/
+
+# Private notes (自分用の非公開メモなど)
+priv/
+*.private.md
+
